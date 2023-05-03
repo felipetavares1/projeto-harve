@@ -1,0 +1,147 @@
+/* Fontes personalizadas */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:400&display=swap');
+}dd  
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+/* Estilos para a navegação */  
+nav {
+    background-color: grey;
+    color: #ff5e00;
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.5s ease;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+    background-color: grey;
+}
+nav li:hover {
+    transform: translateY(-5px);
+}
+  /* Estilos para seções */
+section {
+    padding: 50px;
+    margin-top: 20px;
+    background-color: rgb(48, 47, 47);
+    transition: background-color 0.5s ease;
+}
+section h2 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+  section:hover {
+    background-color: rgb(48, 47, 47);
+}
+  .project {
+    display: flex;
+    margin-bottom: 50px;
+}
+.project img {
+    width: 300px;
+    margin-right: 20px;
+    transition: transform 0.7s ease;
+    cursor: pointer;
+}
+.project h3 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.project p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.project:hover img {
+    transform: scale(1.1);
+}
+  /* Estilos para o rodapé */
+footer {
+    background-color: grey;
+    color: #faa500;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: rgb(48, 47, 47);
+}
+  a[href^="mailto:"] {
+    color: white;
+    text-decoration: none;
+}
+.botao{
+    position: fixed;
+    bottom: 20px; /* distância em pixels do botão para a borda inferior da página */
+    right: 20px; /* distância em pixels do botão para a borda direita da página */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+p{
+    color: black;
+  }
+h3{
+    color: black;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+}
